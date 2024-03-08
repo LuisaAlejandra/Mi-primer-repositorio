@@ -3,3 +3,13 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
+
+h2{
+    text-align: left;
+    color: brown;
+    text-decoration: aqua;
+}
+h3{
+    text-align: right;
+    color: aquamarine;
+}
