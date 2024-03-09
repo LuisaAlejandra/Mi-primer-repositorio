@@ -18,29 +18,45 @@
                 <!-- <img src="lasagna.jpg" alt="Garfield comiendo"> -->
                 <hr>
                 <h3>Lista de gatos</h3>
-                <p>Cosas que los gatos <em>aman</em>:</p>
-                <ul>
-                    <li>Menta</li>
-                    <li>Leche</li>
-                    <li>Juguetes</li>
-                </ul>
 
-                <p>Cosas que los gatos <strong>odian</strong>:</p>
-                <ol>
-                    <li>Fuego</li>
-                    <li>Bañarse</li>
-                    <li>Truenos</li>
-                </ol>
+                <div>
+                    <p>Cosas que los gatos <em>aman</em>:</p>
+                    <ul>
+                        <li>Menta</li>
+                        <li>Leche</li>
+                        <li>Juguetes</li>
+                    </ul>
+
+                    <p>Cosas que los gatos <strong>odian</strong>:</p>
+                    <ol>
+                        <li>Fuego</li>
+                        <li>Bañarse</li>
+                        <li>Truenos</li>
+                    </ol>
+                </div>
                 <form action="/enviar-respuesta">
-                    <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior </label>
+                    <label for="interior">
+                        <input id="interior" type="radio" value="interior" name="interior-exterior">Interior </label>
 
-                    <label for="exterior"><input id="exterior" type="radio" name="interior-exterior">Exterior</label><br>
+                    <label for="exterior">
+                        <input id="exterior" type="radio" value="exterior" name="interior-exterior" checked>Exterior</label><br>
 
+                    <!--Casillas de verificacion-->
+                    <label for="lunes">
+                        <input id="lunes" type="checkbox" value="lunes" name="personalidad" checked>Lunes</label> <br>
+                    <label for="viernes">
+                        <input id="viernes" type="checkbox" value="viernes" name="personalidad">Viernes</label> <br>
+                    <label for="domingo">
+                        <input id="domingo" type="checkbox" value="domingo" name="personalidad">Domingo</label> <br>
+
+                    <!--Texto y boton de enviar-->
                     <input type="text" placeholder="Ingresa numeros">
                     <input type="text" placeholder="Apellidos" required>
                     <button type="submit">Enviar</button>
                 </form>
-
             </main>
+            <footer>
+              <p> <small>Uicab Cetz Luisa Alejandra</small></p>
+            </footer>
     </body>
 </html>
