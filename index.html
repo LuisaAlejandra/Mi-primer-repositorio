@@ -32,7 +32,12 @@
                     <li>Truenos</li>
                 </ol>
                 <form action="/enviar-respuesta">
-                    <input type="text">
+                    <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior </label>
+
+                    <label for="exterior"><input id="exterior" type="radio" name="interior-exterior">Exterior</label><br>
+
+                    <input type="text" placeholder="Ingresa numeros">
+                    <input type="text" placeholder="Apellidos" required>
                     <button type="submit">Enviar</button>
                 </form>
 
